@@ -1,0 +1,7 @@
+services:
+  build: .
+  volumes:
+    - /home/informatica/Desktop/angular/prova/:/app/
+  ports:
+    - 4200:4200
+  
